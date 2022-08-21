@@ -97,3 +97,51 @@ html {
   .header__description button:hover {
     cursor: pointer;
   }
+
+  /* SECTION  */
+
+  .about-me {
+    margin: 0 auto;
+    padding-top: 119px;
+    padding-bottom: 100px;
+    width: 1920px;
+    text-align: center;
+  }
+  
+  .about-me h2 {
+    padding-bottom: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+
+  .about-me p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+    margin: 0 auto;
+    color: #727272;
+  }
+
+  /* SECTION PPROJECT LIST */
+
+  .project-list-wrapper {
+    margin: 0 auto;
+    width: 1920px;
+    background-color: #34547A;
+    color: #fff;
+  }
+
+  .project-list {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  .project-list__desc {
+    display: flex;
+  }
+  .project-list__desc div {
+    margin-left: 25px;
+    margin-right: 50px;
+  }
