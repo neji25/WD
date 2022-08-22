@@ -187,3 +187,45 @@ html {
     height: 4px;
     background-color: #34547A;
   }
+
+  /* HOW WORK SECTION */
+
+  .howwork-wrapper {
+    width: 1920px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EEEFF1;
+  }
+  .howwork {
+    text-align: center;
+  }
+  .howwork h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    margin-bottom: 50px;
+  }
+  .howwork p {
+    margin: 0 auto;
+    width: 540px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+  }
+  .howwork__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 57px auto 0 auto;
+    width: 1110px;
+    height: 600px;
+    background: url(./images/video.png);
+  }
+  .howwork__video button {
+    width: 105px;
+    height: 105px;
+    background: url(./images/video-play.png) rgba(28, 28, 28, 0) no-repeat;
+    border: none;
+  }
