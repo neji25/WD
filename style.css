@@ -145,3 +145,45 @@ html {
     margin-left: 25px;
     margin-right: 50px;
   }
+
+  /* SKILLS SECTION */
+
+  .skills-wrapper {
+    margin: 0 auto;
+    padding-top: 102px;
+    padding-bottom: 101px;
+    width: 1920px;
+    background-color: #E5E5E5;
+    
+  }
+  .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .skills li {
+    margin-bottom: 30px;
+    margin-right: 150px;
+  }
+  .skills li p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+  }
+  .skills .status-bar{
+    width: 445px;
+    height: 4px;
+    background-color: #C4C4C4;
+  }
+  .skills .status-bar div {
+    width: 350px;
+    height: 4px;
+    background-color: #34547A;
+  }
