@@ -229,3 +229,17 @@ html {
     background: url(./images/video-play.png) rgba(28, 28, 28, 0) no-repeat;
     border: none;
   }
+
+  /* PROJECT */
+
+  .projects-wrapper {
+    width: 1920px;
+    margin: 0 auto;
+  }
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .projects a{
+    margin-bottom: -4px;
+  }
