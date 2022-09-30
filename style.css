@@ -329,3 +329,36 @@ html {
     color: #fff;
     border: 0;
   }
+/* FOOTER SECTION */
+.footer-wrapper {
+  width: 1920px;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #34547A;
+}
+.footer-content {
+  width: 1125px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons {
+  display: flex;
+}
+.social-icons li {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.footer-p1 {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+}
+.footer-p2 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+}
